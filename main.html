@@ -8,6 +8,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	 <main>
+      <input type="text" id="input" name="num" class="num" disabled />
+      <div class="btns">
+        <button class="btn" id="clr" onclick="appendCharacter('C')">C</button>
+        <button class="btn" id="divide" onclick="appendCharacter('/')">/</button>
+        <button class="btn" id="multiply" onclick="appendCharacter('*')">*</button>
+        <button class="btn" id="clear" onclick="deleteLastCharacter()"">&larr;</button>
+        <button class="btn" id="block7" onclick="appendCharacter('7')">7</button>
+        <button class="btn" id="block8" onclick="appendCharacter('8')">8</button>
+        <button class="btn" id="block9" onclick="appendCharacter('9')">9</button>
+        <button class="btn" id="minus" onclick="appendCharacter('-')">-</button>
+        <button class="btn" id="block4" onclick="appendCharacter('4')">4</button>
+        <button class="btn" id="block5" onclick="appendCharacter('5')">5</button>
+        <button class="btn" id="block6" onclick="appendCharacter('6')">6</button>
+        <button class="btn" id="plus" onclick="appendCharacter('+')">+</button>
+        <button class="btn" id="block1" onclick="appendCharacter('1')">1</button>
+        <button class="btn" id="block2" onclick="appendCharacter('2')">2</button>
+        <button class="btn" id="block3" onclick="appendCharacter('3')">3</button>
+        <button class="btn" id="dot" onclick="appendCharacter('.')">.</button>
+        <button class="btn" id="rb" onclick="appendCharacter('(')">(</button>
+        <button class="btn" id="block0" onclick="appendCharacter('0')">0</button>
+        <button class="btn" id="lb" onclick="appendCharacter(')')">)</button>
+        <button class="btn" id="ans" onclick="calculateResult()">=</button>
+      </div>
+    </main>
     <script type="text/javascript" src="./script.js">
 </script>
 
