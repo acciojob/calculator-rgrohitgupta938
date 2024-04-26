@@ -1,4 +1,3 @@
-//your code here
 const appendCharacter = (char) => {
   const display = document.getElementById("input");
   if (char === "C") {
@@ -29,8 +28,10 @@ const calculateResult = () => {
     display.value = result;
   } catch (error) {
     if (error.message === "Division by zero") {
+      console.log("inif");
       display.value = "Infinity";
     } else {
+      console.log("err");
       display.value = "Error";
     }
   }
